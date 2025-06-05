@@ -16,8 +16,6 @@ This project simulates a **Todo List Manager** with support for:
 
 All interaction is done through a command-line menu system.
 
----
-
 ## 🧠 Skills Demonstrated
 
 - 🧩 Structured Programming (using `struct`, `enum`)
@@ -28,18 +26,36 @@ All interaction is done through a command-line menu system.
 - 📌 Modular code structure for scalability
 - 💬 User feedback handling for better UX in console apps
 
----
-
 ## 🔧 Technologies
 
 - Language: **C (ANSI C)**
 - Compiler: GCC / Clang compatible
 - Platform: Linux / Windows / macOS (Terminal based)
 
-
-
 ## 🚀 How to Compile & Run
 
 ```bash
-gcc -o todo main.c
-./todo
+# Todo List CLI - C Language
+A simple Command-Line Todo List application written in C.
+
+## 📌 Features
+
+- Add tasks
+- Remove tasks
+- View tasks
+- Save/load tasks from file
+
+## 🛠️ Technologies Used
+
+- C Programming Language
+- File Handling in C
+- Dynamic Memory (if used)
+- GCC (GNU Compiler Collection)
+
+## 🚀 How to Run
+
+### Compile:
+```bash
+gcc -o todoV3 todoV3.c
+./todoV3
+
